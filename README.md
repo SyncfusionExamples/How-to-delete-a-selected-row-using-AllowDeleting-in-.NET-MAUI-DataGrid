@@ -4,7 +4,7 @@ The [.NET MAUI DataGrid](https://www.syncfusion.com/maui-controls/maui-datagrid)
 
 Refer to the code example below, where the `AllowDeleting` property is set to True:
 
-## XAML
+#### XAML
 This enables the capability to delete selected rows using the Delete key.
 
 ```XML
@@ -13,6 +13,7 @@ This enables the capability to delete selected rows using the Delete key.
                         AllowDeleting="True">
 </syncfusion:SfDataGrid>
 ```
+#### C#
 ```C#
 // Similar code as xaml
 datagrid.AllowDeleting = true;
